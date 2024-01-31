@@ -13,6 +13,7 @@ h1 {
     color: red;
     -webkit-text-stroke: 2px darkblue;
     text-shadow: 4px 6px 3px white, 4px 8px 3px darkblue, 4px 10px 3px red;
+    padding-top: 50px;
 }
 
 .underheader{
@@ -41,7 +42,7 @@ h1 {
 .aside_left {
     width: 150px;
     color: darkblue;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     float: left;
 
 }
@@ -60,7 +61,7 @@ li {
 
 main {
     width: 888px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     float: left;
     margin-right: 20px;
     margin-left: 20px;
@@ -71,18 +72,20 @@ main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: linear-gradient(to bottom, white, darkblue, red);
     text-align: center;
+    padding: 5px;
     font-size: 20px;
-    -webkit-text-stroke: 1px darkblue;
+    letter-spacing: 2px;
+    /* -webkit-text-stroke: 1px darkblue; */
 
 }
 
 section {
-    background-color: rgba(138, 43, 226,0.1);
+    /* background-color: rgba(138, 43, 226,0.1); */
     overflow: hidden;
 }
 
 article {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     width: 424px;
     float: left;
     margin-left: 10px;
@@ -92,7 +95,7 @@ article {
 
 .aside_right {
     width: 300px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     float: left;
 }
 
@@ -147,9 +150,7 @@ footer {
     color: white;
     text-align: center;
 }
-footer {
-    /* background-color: aqua; */
-}
+
 
 footer div {
     text-align: center;
@@ -165,3 +166,38 @@ footer div {
     font-size: 18px;
 
 }
+
+.logo {
+    width: 50px;
+}
+
+.html {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 320px;
+}
+
+.css {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+
+
+
+.bootstrap {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    right: 450px;
+}
+
+
+.angularjs {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    right: 320px;
+} 
