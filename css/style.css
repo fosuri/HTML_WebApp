@@ -1,7 +1,7 @@
 .wrapper {
     width: 1388px;
-    margin: auto;
-    background-color: rgba(0, 0, 0,0.1);
+    margin: 0 auto;
+    /* background-color: rgba(0, 0, 0,0.1); */
 }
 
 h1 {
@@ -60,11 +60,12 @@ li {
 }
 
 main {
-    width: 888px;
+    width: 898px;
     /* border: 1px solid green; */
     float: left;
     margin-right: 20px;
     margin-left: 20px;
+    
 }
 
 .artH3 {
@@ -118,7 +119,17 @@ p {
 
 
 footer {
+    width: 1388px;
+    /* border: 1px solid red; */
     clear: both;
+}
+
+footer div {
+    text-align: center;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    text-shadow: 0px 0px 4px rgba(0, 255, 255,0.5);
 }
 
 .HTML5 {
@@ -152,14 +163,6 @@ footer {
 }
 
 
-footer div {
-    text-align: center;
-    color: darkblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 30px;
-    text-shadow: 0px 0px 4px rgba(0, 255, 255,0.5);
-}
-
 .divP {
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
@@ -171,33 +174,51 @@ footer div {
     width: 50px;
 }
 
+
 .html {
     width: 100px;
-    position: absolute;
-    top: 50px;
-    left: 320px;
+    position: relative;
+    top: 30px;
+    left: 20px;
 }
 
 .css {
     width: 100px;
-    position: absolute;
-    top: 50px;
-    left: 450px;
+    position: relative;
+    top: 30px;
+    left: 40px;
 }
 
 
 
 .bootstrap {
     width: 100px;
-    position: absolute;
-    top: 50px;
-    right: 450px;
+    position: relative;
+    top: 30px;
+    left: 60px;
 }
 
 
 .angularjs {
     width: 100px;
-    position: absolute;
-    top: 50px;
-    right: 320px;
+    position: relative;
+    top: 30px;
+    left: 75px;
 } 
+
+
+.headerP1 {
+    width: 300px;
+    float: left;
+
+}
+
+.headerP2 {
+    width: 300px;
+    float: left;
+}
+
+.headerT {
+    width: 788px;
+    float: left;
+}

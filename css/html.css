@@ -1,0 +1,80 @@
+body {
+    background-color: #24283b;
+}
+
+.wrapper {
+    width: 1388px;
+    margin: auto;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+.header-code-example {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    bottom: 205px;
+    left: 800px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.menu {
+    margin-top: -226px;
+    font-size: 28px;
+    position: relative;
+}
+a {
+    margin-right: 8px;
+    color: aliceblue;
+}
+
+main {
+    width: 1068px;
+    float: left;
+    /* background-color: rgba(250,0,0,0.3); */
+    color: aliceblue;
+
+    
+}
+
+section {
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.code-example {
+    width: 800px;
+    position: relative;
+    left: 20px;
+}
+
+.aside-right {
+    width: 300px;
+    float: left;
+    /* background-color: rgba(0,250,0,0.3); */
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+ul {
+    color: aliceblue;
+    list-style-type: square;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button {
+    clear: both;
+    width: 1060px;
+    text-align: center;
+
+    border: 3px solid white;
+    padding: 0px;
+    border-radius: 18px;
+    font-size: 24px;
+}
