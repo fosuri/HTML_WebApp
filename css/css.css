@@ -1,0 +1,126 @@
+body {
+    background-color: #ecedf0;
+    
+}
+
+.wrapper {
+    width: 1388px;
+    margin: auto;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+}
+
+.header-code-example {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    left: 800px;
+    margin-top: -180px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.tobottom {
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    bottom: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Calibri;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+ul, p {
+    font-size: 20px;
+}
+
+.aside-left {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 300px;
+    height: 1202px;
+    float: left;
+    margin-right: 10px;
+}
+
+main {
+    /* background-color: rgba(0, 255, 255, 0.7); */
+    width: 1078px;
+    float: left;
+}
+
+.article-code {
+    background-color: rgba(220, 220, 220, 1);
+    padding: 1px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+pre {
+    font-size: 18px;
+}
+
+.tag {
+    color: purple;
+}
+
+.param-name {
+    color: red;
+}
+
+.param {
+    color: blue;
+}
+
+.code-example {
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 400px;
+    box-shadow: -5px 0px 0px green;
+}
+
+.totop{
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+
+
+}
+
+footer {
+    clear: both;
+    padding: 1px;
+    /* background-color: red; */
+}
+
+footer h4 {
+    text-align: center;
+}

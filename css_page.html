@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+
+
+    <header id="top">
+        <img src="images/cssH.png" alt="html header">
+        <pre class="header-code-example">
+            main {
+                width: 898px;
+                float: left;
+                margin-right: 20px;
+                margin-left: 20px;
+                
+            }
+        </pre>
+
+        <h2>CSS-введение</h2>
+        <a class="tobottom" href="#bottom">Вниз</a>
+
+    </header>
+
+    <aside class="aside-left">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#1">Что такое CSS?</a></li>
+                <li><a href="#2">Зачем использовать CSS?</a></li>
+                <li><a href="#3">CSS решил большую проблему</a></li>
+            </ul>
+        </nav>
+        
+    </aside>
+
+    <main>
+        <section>
+            <article>
+                <h3 id="1">Что такое CSS?</h3>
+
+                <ul>
+                    <li>CSS означает каскадные таблицы стилей.</li>
+                    <li>CSS описывает, как элементы HTML должны отображаться на экране, бумаге или на других носителях.</li>
+                    <li>CSS экономит много работы. Он может контролировать макет нескольких веб-страниц одновременно.</li>
+                    <li>Внешние таблицы стилей хранятся в файлах CSS.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3 id="2">Зачем использовать CSS?</h3>
+                <p>
+                    CSS используется для определения стилей ваших веб-страниц, включая дизайн, макет и варианты отображения для разных устройств и размеров экрана.
+                </p>
+            </article>
+
+            <article class="article-code">
+                <h4>Пример CSS</h4>
+
+                <pre class="code-example">
+<span class="tag">body</span> {
+    <span class="param-name">background-color</span><span class="param">: lightblue</span>;
+}
+
+<span class="tag">h1</span> {
+    <span class="param-name">color</span><span class="param">: white</span>;
+    <span class="param-name">text-align</span><span class="param">: center</span>;
+}
+
+<span class="tag">p</span> {
+    <span class="param-name">font-family</span><span class="param">: verdana</span>;
+    <span class="param-name">font-size</span><span class="param">: 20px</span>;
+}                    
+                </pre>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3 id="3">CSS решил большую проблему</h3>
+                <p>HTML НИКОГДА не предназначался для размещения тегов для форматирования веб-страниц!</p>
+                <p>HTML был создан для описания содержимого веб-страницы, например:</p>
+                <p>&lt;h1&gt;Это заголовок&lt;h1&gt;</p>
+                <p>&lt;p&gt;Это абзац.&lt;p&gt;</p>
+                <p>Когда в спецификацию HTML 3.2 были добавлены такие теги, как &lt;font&gt; и атрибуты цвета, это стало кошмаром для веб-разработчиков. Разработка больших веб-сайтов, где на каждую страницу добавлялась информация о шрифтах и цветах, стала долгим и дорогостоящим процессом.</p>
+                <p>Чтобы решить эту проблему, Консорциум Всемирной паутины (W3C) создал CSS.</p>
+                <p>CSS удалил форматирование стиля со страницы HTML!</p>
+            </article>
+        </section>
+    </main>
+
+    <footer id="bottom">
+        <a class="totop" href="#top">Вниз</a>
+        <h4>2024</h4>
+    </footer>
+
+</div>
+
+</body>
+</html>
