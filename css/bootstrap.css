@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #24283b;
     color: azure;
@@ -65,8 +69,8 @@ main {
     margin: auto;
 }
 
-h2 {
-    font-size: 40px;
+h1 {
+    font-size: 48px;
 }
 
 p {
@@ -74,7 +78,7 @@ p {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 
@@ -83,7 +87,7 @@ h3 {
     float: left;
     margin-left: 16px;
     margin-right: 16px;
-    margin-top: 20px;
+    margin-top: 40px;
     border: 1px solid whitesmoke;
     border-radius: 5px;
     padding-left: 10px;
@@ -94,7 +98,7 @@ h3 {
     width: 1334px;
     float: left;
     margin-left: 16px;
-    margin-top: 20px;
+    margin-top: 40px;
     border: 1px solid whitesmoke;
     border-radius: 5px;
     padding-left: 10px;

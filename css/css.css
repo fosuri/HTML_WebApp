@@ -10,7 +10,7 @@ body {
 }
 
 .header-code-example {
-    font-size: 18px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.7);
     position: relative;
     left: 800px;
@@ -32,24 +32,26 @@ header {
 
 }
 
-h2 {
+h1 {
     text-align: center;
     color: black;
-    font-size: 40px;
+    font-size: 44px;
     font-family: Calibri;
     text-transform: uppercase;
+    font-weight: bold;
+
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 34px;
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 26px;
 }
 
 ul, p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .aside-left {
@@ -123,4 +125,8 @@ footer {
 
 footer h4 {
     text-align: center;
+}
+
+p {
+    font-size: 22px;
 }

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
     background-color: azure;
@@ -39,23 +43,23 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 42px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 h4 {
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .h5 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .place{
@@ -87,4 +91,8 @@ nav ul li {
 
 nav a {
     color: azure;
+}
+
+a {
+    font-size: 20px;
 }
